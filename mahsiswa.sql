@@ -19,17 +19,17 @@ CREATE TABLE mahasiswa (
 );
 
 -- insert jurusan 
-insert into jurusan (kode, nama) values ("APBL", "Teknik Elektro");
-insert into jurusan (kode, nama) values ("PTIF", "Teknik Informasi");
+insert into jurusan (kode, nama) values ("APBL", "Teknik Informatika");
+insert into jurusan (kode, nama) values ("PTIF", "Teknik Industri");
 
 -- insert mahasiswa
 insert into mahasiswa (id_jurusan, nim, nama, jenis_kelamin, tempat_lahir, tanggal_lahir, alamat)
-values (1,'72190029', 'Ferdiansyah', 'laki-laki', 'Jakarta', '2001-05-19', 'Jl. Tamansari Raya No 45 BLK');
+values (1,'72190029', 'Fadhlan', 'laki-laki', 'Jakarta', '2001-08-17', 'Jl. Purwa 2 Blok P NO.17');
 insert into mahasiswa (id_jurusan, nim, nama, jenis_kelamin, tempat_lahir, tanggal_lahir, alamat)
-values (1,'72190014', 'Hamud', 'laki-laki', 'Abu Dhabi', '2001-05-14', 'Jl. Tamanasari 6 No 14');
+values (1,'72190014', 'MOohamad', 'laki-laki', 'Citayam', '2001-02-16', 'Jl. Narada Blok C10 No.16');
 
 -- update data mahasiswa
-update mahasiswa set alamat = "JL. Tamansari 6 No 14" where id = 2;
+update mahasiswa set alamat = "Jl. Narada Blok C10 No.16" where id = 2;
 
 -- delete data mahasiswa 
 delete from mahasiswa where id = 2;
