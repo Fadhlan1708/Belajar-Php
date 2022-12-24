@@ -26,7 +26,7 @@ insert into jurusan (kode, nama) values ("PTIF", "Teknik Industri");
 insert into mahasiswa (id_jurusan, nim, nama, jenis_kelamin, tempat_lahir, tanggal_lahir, alamat)
 values (1,'72190029', 'Fadhlan', 'laki-laki', 'Jakarta', '2001-08-17', 'Jl. Purwa 2 Blok P NO.17');
 insert into mahasiswa (id_jurusan, nim, nama, jenis_kelamin, tempat_lahir, tanggal_lahir, alamat)
-values (1,'72190014', 'MOohamad', 'laki-laki', 'Citayam', '2001-02-16', 'Jl. Narada Blok C10 No.16');
+values (1,'72190014', 'Mohamad', 'laki-laki', 'Citayam', '2001-02-16', 'Jl. Narada Blok C10 No.16');
 
 -- update data mahasiswa
 update mahasiswa set alamat = "Jl. Narada Blok C10 No.16" where id = 2;
